@@ -19,7 +19,7 @@ defmodule EdeliveredApp.Mixfile do
   def application do
     [mod: {EdeliveredApp, []},
      applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex]]
+                    :phoenix_ecto, :postgrex, :edeliver]]
   end
 
   # Specifies which paths to compile per environment.
@@ -40,7 +40,8 @@ defmodule EdeliveredApp.Mixfile do
      {:cowboy, "~> 1.0"},
 
      # Deployment
-     {:distillery, "~> 1.0"}
+     {:distillery, "~> 1.0"},
+     {:edeliver, "~> 1.4.0"}
     ]
   end
 
