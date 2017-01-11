@@ -2,15 +2,15 @@
 APP="edelivered_app"
 
 # Configuration of where the releases would be built.
-BUILD_HOST="45.55.167.193" # change to your server's IP address
+BUILD_HOST="138.197.37.15" # change to your server's IP address
 BUILD_USER="app"
-BUILD_AT="/home/app/mysite.com/edeliver"
+BUILD_AT="/home/app/mysite.com/edeliver_builds"
 
 # The location where built releases are going to be stored.
-RELEASE_STORE=app@45.55.167.193:/home/app/mysite.com/release_store/
+RELEASE_STORE=app@138.197.37.15:/home/app/mysite.com/edeliver_release_store/
 
 # Host and use of where the app would run.
-PRODUCTION_HOSTS="45.55.167.193" # same host in our case.
+PRODUCTION_HOSTS="138.197.37.15" # same host in our case.
 PRODUCTION_USER="app"
 
 DELIVER_TO="/home/app/mysite.com"
