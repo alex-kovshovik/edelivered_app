@@ -1,6 +1,6 @@
 <div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}", name: "Phoenix!" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+  <h2><%= gettext "Welcome to %{name}", name: "Edeliver!" %></h2>
+  <p class="lead">An easy to use Elixir deployment tool that does not <br />compromise programmer happiness and deployability.</p>
 </div>
 
 <div class="row marketing">
